@@ -32,3 +32,9 @@ cat DIRECTARY/*.snappy | snappycat
 ```
 
 `snappycat` is able to handle the input correctly even if some files don't have any records.
+
+To save the output as a file:
+
+```bash
+./snappycat DIRECTORY/*.snappy > output.txt
+```
