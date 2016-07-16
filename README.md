@@ -6,10 +6,6 @@ Each block is prepended with two 32-bit integers stating the size of the decompr
 Therefore, snappy library cannot directly decompress it. This command line utility handles the headers
 and decompresses the data without any dependencies on the Hadoop libraries.
 
-## Known Issues
-
-For large files, [libsnappy1.1.3+ branch](https://github.com/shaform/snappycat/tree/libsnappy1.1.3) may be required.
-
 
 ## Build
 
